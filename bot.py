@@ -20,10 +20,10 @@ logger = logging.getLogger(__name__)
 # ============================================================
 #  НАСТРОЙКИ — заполни перед запуском
 # ============================================================
-BOT_TOKEN  = 8678982386:AAFm5xGJQpgUrifplVcOyOuBbEv33e24z2g        # Токен от @BotFather
-GROUP_ID   = 1002112502375            # ID группы (отрицательное число)
-ADMIN_IDS  = 535618527               # Твой Telegram ID
-BOT_USERNAME = svob_led_bot             # username бота без @
+BOT_TOKEN  = "8678982386:AAFm5xGJQpgUrifplVcOyOuBbEv33e24z2g"        # Токен от @BotFather
+GROUP_ID   = -1002112502375            # ID группы (отрицательное число)
+ADMIN_IDS  = [535618527]               # Твой Telegram ID
+BOT_USERNAME = "svob_led_bot"             # username бота без @
 # ============================================================
 
 CHANNELS_FILE = "channels.json"
